@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+DATA = ROOT
 
 st.set_page_config(
     page_title="PulseIQ Analytics | Demo",
